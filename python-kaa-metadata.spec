@@ -3,7 +3,7 @@
 Summary: Kaa Media Meta Data retrieval framework
 Name: python-%{pkgname}
 Version: 0.7.3
-Release: %mkrel 1
+Release: %mkrel 2
 Source0: http://mesh.dl.sourceforge.net/sourceforge/freevo/%{pkgname}-%{version}.tar.gz
 License: LGPL
 URL: http://sourceforge.net/projects/freevo/
