@@ -39,47 +39,47 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 
 %_bindir/mminfo
-%py_puresitedir/kaa_metadata*.egg-info
+%py_platsitedir/kaa_metadata*.egg-info
 
-%dir %py_puresitedir/kaa/metadata
-%py_puresitedir/kaa/metadata/*.py
-%py_puresitedir/kaa/metadata/*.pyc
-%py_puresitedir/kaa/metadata/*.pyo
+%dir %py_platsitedir/kaa/metadata
+%py_platsitedir/kaa/metadata/*.py
+%py_platsitedir/kaa/metadata/*.pyc
+%py_platsitedir/kaa/metadata/*.pyo
 
-%dir %py_puresitedir/kaa/metadata/audio
-%py_puresitedir/kaa/metadata/audio/*.py
-%py_puresitedir/kaa/metadata/audio/*.pyc
-%py_puresitedir/kaa/metadata/audio/*.pyo
+%dir %py_platsitedir/kaa/metadata/audio
+%py_platsitedir/kaa/metadata/audio/*.py
+%py_platsitedir/kaa/metadata/audio/*.pyc
+%py_platsitedir/kaa/metadata/audio/*.pyo
 
-%dir %py_puresitedir/kaa/metadata/audio/eyeD3
-%py_puresitedir/kaa/metadata/audio/eyeD3/*.py
-%py_puresitedir/kaa/metadata/audio/eyeD3/*.pyc
-%py_puresitedir/kaa/metadata/audio/eyeD3/*.pyo
+%dir %py_platsitedir/kaa/metadata/audio/eyeD3
+%py_platsitedir/kaa/metadata/audio/eyeD3/*.py
+%py_platsitedir/kaa/metadata/audio/eyeD3/*.pyc
+%py_platsitedir/kaa/metadata/audio/eyeD3/*.pyo
 
-%dir %py_puresitedir/kaa/metadata/disc
-%py_puresitedir/kaa/metadata/disc/*.py
-%py_puresitedir/kaa/metadata/disc/*.pyc
-%py_puresitedir/kaa/metadata/disc/*.pyo
-%py_puresitedir/kaa/metadata/disc/*.so
+%dir %py_platsitedir/kaa/metadata/disc
+%py_platsitedir/kaa/metadata/disc/*.py
+%py_platsitedir/kaa/metadata/disc/*.pyc
+%py_platsitedir/kaa/metadata/disc/*.pyo
+%py_platsitedir/kaa/metadata/disc/*.so
 
-%dir %py_puresitedir/kaa/metadata/games
-%py_puresitedir/kaa/metadata/games/*.py
-%py_puresitedir/kaa/metadata/games/*.pyc
-%py_puresitedir/kaa/metadata/games/*.pyo
+%dir %py_platsitedir/kaa/metadata/games
+%py_platsitedir/kaa/metadata/games/*.py
+%py_platsitedir/kaa/metadata/games/*.pyc
+%py_platsitedir/kaa/metadata/games/*.pyo
 
-%dir %py_puresitedir/kaa/metadata/image
-%py_puresitedir/kaa/metadata/image/*.py
-%py_puresitedir/kaa/metadata/image/*.pyc
-%py_puresitedir/kaa/metadata/image/*.pyo
+%dir %py_platsitedir/kaa/metadata/image
+%py_platsitedir/kaa/metadata/image/*.py
+%py_platsitedir/kaa/metadata/image/*.pyc
+%py_platsitedir/kaa/metadata/image/*.pyo
 
-%dir %py_puresitedir/kaa/metadata/misc
-%py_puresitedir/kaa/metadata/misc/*.py
-%py_puresitedir/kaa/metadata/misc/*.pyc
-%py_puresitedir/kaa/metadata/misc/*.pyo
+%dir %py_platsitedir/kaa/metadata/misc
+%py_platsitedir/kaa/metadata/misc/*.py
+%py_platsitedir/kaa/metadata/misc/*.pyc
+%py_platsitedir/kaa/metadata/misc/*.pyo
 
-%dir %py_puresitedir/kaa/metadata/video
-%py_puresitedir/kaa/metadata/video/*.py
-%py_puresitedir/kaa/metadata/video/*.pyc
-%py_puresitedir/kaa/metadata/video/*.pyo
+%dir %py_platsitedir/kaa/metadata/video
+%py_platsitedir/kaa/metadata/video/*.py
+%py_platsitedir/kaa/metadata/video/*.pyc
+%py_platsitedir/kaa/metadata/video/*.pyo
 
 
