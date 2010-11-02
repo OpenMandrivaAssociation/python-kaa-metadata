@@ -2,8 +2,8 @@
 
 Summary: Kaa Media Meta Data retrieval framework
 Name: python-%{pkgname}
-Version: 0.7.5
-Release: %mkrel 4
+Version: 0.7.7
+Release: %mkrel 1
 Source0: http://mesh.dl.sourceforge.net/sourceforge/freevo/%{pkgname}-%{version}.tar.gz
 License: LGPL
 URL: http://sourceforge.net/projects/freevo/
@@ -43,43 +43,27 @@ rm -rf $RPM_BUILD_ROOT
 
 %dir %py_platsitedir/kaa/metadata
 %py_platsitedir/kaa/metadata/*.py
-%py_platsitedir/kaa/metadata/*.pyc
-%py_platsitedir/kaa/metadata/*.pyo
 
 %dir %py_platsitedir/kaa/metadata/audio
 %py_platsitedir/kaa/metadata/audio/*.py
-%py_platsitedir/kaa/metadata/audio/*.pyc
-%py_platsitedir/kaa/metadata/audio/*.pyo
 
 %dir %py_platsitedir/kaa/metadata/audio/eyeD3
 %py_platsitedir/kaa/metadata/audio/eyeD3/*.py
-%py_platsitedir/kaa/metadata/audio/eyeD3/*.pyc
-%py_platsitedir/kaa/metadata/audio/eyeD3/*.pyo
 
 %dir %py_platsitedir/kaa/metadata/disc
 %py_platsitedir/kaa/metadata/disc/*.py
-%py_platsitedir/kaa/metadata/disc/*.pyc
-%py_platsitedir/kaa/metadata/disc/*.pyo
 %py_platsitedir/kaa/metadata/disc/*.so
 
 %dir %py_platsitedir/kaa/metadata/games
 %py_platsitedir/kaa/metadata/games/*.py
-%py_platsitedir/kaa/metadata/games/*.pyc
-%py_platsitedir/kaa/metadata/games/*.pyo
 
 %dir %py_platsitedir/kaa/metadata/image
 %py_platsitedir/kaa/metadata/image/*.py
-%py_platsitedir/kaa/metadata/image/*.pyc
-%py_platsitedir/kaa/metadata/image/*.pyo
 
 %dir %py_platsitedir/kaa/metadata/misc
 %py_platsitedir/kaa/metadata/misc/*.py
-%py_platsitedir/kaa/metadata/misc/*.pyc
-%py_platsitedir/kaa/metadata/misc/*.pyo
 
 %dir %py_platsitedir/kaa/metadata/video
 %py_platsitedir/kaa/metadata/video/*.py
-%py_platsitedir/kaa/metadata/video/*.pyc
-%py_platsitedir/kaa/metadata/video/*.pyo
 
 
