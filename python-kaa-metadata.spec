@@ -67,3 +67,71 @@ rm -rf $RPM_BUILD_ROOT
 %py_platsitedir/kaa/metadata/video/*.py
 
 
+
+
+%changelog
+* Tue Nov 02 2010 Crispin Boylan <crisb@mandriva.org> 0.7.7-1mdv2011.0
++ Revision: 591925
+- New release
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.7.5-4mdv2010.0
++ Revision: 442213
+- rebuild
+
+  + Crispin Boylan <crisb@mandriva.org>
+    - Use platform site dir
+    - Use proper file list
+
+* Sun Dec 28 2008 Götz Waschk <waschk@mandriva.org> 0.7.5-2mdv2009.1
++ Revision: 320637
+- rebuild for new python
+
+* Sun Dec 21 2008 Crispin Boylan <crisb@mandriva.org> 0.7.5-1mdv2009.1
++ Revision: 316961
+- New release
+
+* Mon Sep 01 2008 Götz Waschk <waschk@mandriva.org> 0.7.3-3mdv2009.0
++ Revision: 278260
+- rebuild for new libdvdread
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.7.3-2mdv2009.0
++ Revision: 269028
+- rebuild early 2009.0 package (before pixel changes)
+
+* Mon May 12 2008 Crispin Boylan <crisb@mandriva.org> 0.7.3-1mdv2009.0
++ Revision: 206409
+- New release
+
+* Wed Feb 06 2008 Crispin Boylan <crisb@mandriva.org> 0.7.2-1mdv2008.1
++ Revision: 163252
+- New release
+
+* Fri Dec 28 2007 Crispin Boylan <crisb@mandriva.org> 0.7.1-1mdv2008.1
++ Revision: 138785
+- New version
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Apr 23 2007 Crispin Boylan <crisb@mandriva.org> 0.6.1-1mdv2008.0
++ Revision: 17244
+- New release
+
+
+* Fri Mar 16 2007 Crispin Boylan <crisb@mandriva.org> 0.6.0-3mdv2007.1
++ Revision: 145306
+- Provides python-mm to ease upgrading
+- Requires python-kaa-base
+
+* Wed Mar 14 2007 Crispin Boylan <crisb@mandriva.org> 0.6.0-2mdv2007.1
++ Revision: 143358
+- Obsoletes python-mm
+
+* Sun Mar 11 2007 Crispin Boylan <crisb@mandriva.org> 0.6.0-1mdv2007.1
++ Revision: 141409
+- Initial Mandriva package
+- Create python-kaa-metadata
+
